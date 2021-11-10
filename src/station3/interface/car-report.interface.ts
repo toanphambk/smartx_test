@@ -2,7 +2,7 @@ export interface CarReport {
   vinNumber: string;
   batchNo: Date;
   sequence: number;
-  manufactureYear: Date;
+  manufactureYear: number;
   country: string;
   bodyColor: string;
   wheel: number;
